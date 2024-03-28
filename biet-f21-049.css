@@ -1,0 +1,118 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+#posts {
+  width: 400px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+#posts div {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#posts div:hover {
+  background-color: #f0f0f0;
+}
+
+.options {
+  display: flex;
+  gap: 15px;
+}
+
+#msg {
+  color: #ff5555;
+  margin-top: 10px;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+.app {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#addNew {
+  background-color: #232d9e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addNew:hover {
+  background-color: #232d9e;
+}
+
+#addNew i {
+  margin-left: 5px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+form {
+  margin-bottom: 20px;
+}
+textarea {
+  width: calc(100% - 22px);
+  height: 30px;
+  padding: 5px 10px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+  resize: none; 
+}
+textarea:focus {
+  height: auto;
+}
+
+button {
+  background-color: #232d9e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+i {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+i:hover {
+  color: #232d9e;
+}
