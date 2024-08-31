@@ -1,3 +1,5 @@
+![Output](https://github.com/user-attachments/assets/a3865192-f05f-4e3c-817a-8901dc2d9a1b)
+
 # To-Do List Web App
 
 This repository contains a simple To-Do List Web App implemented using HTML, CSS, and JavaScript. Users can input tasks in the form field, which are then displayed below the form. Each task comes with options to edit or delete.
